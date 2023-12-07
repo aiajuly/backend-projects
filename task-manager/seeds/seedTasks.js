@@ -9,7 +9,7 @@ const seedTasks = async function(){
 
     Task.deleteMany({});
 
-    for(let i = 0; i <= 10; i++){
+    for(let i = 0; i <= 2; i++){
         const task = new Task({
             taskName: 'Testing Task'
         });
